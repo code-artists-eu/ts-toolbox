@@ -1,12 +1,18 @@
 {
   "name": "ts-toolbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
+  "source": "src/index.ts",
   "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
-    "build": "tsc"
+    "build": "microbundle --jsx",
+    "dev": "microbundle watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "microbundle": "^0.15.1"
+  },
   "devDependencies": {
     "typescript": "^5.5.3"
   },
