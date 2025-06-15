@@ -1,0 +1,6 @@
+# TS-toolbox
+
+Documentation
+```
+typedoc
+```

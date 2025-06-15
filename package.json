@@ -8,12 +8,14 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle --jsx",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "docs": "typedoc"
   },
   "dependencies": {
     "microbundle": "^0.15.1"
   },
   "devDependencies": {
+    "typedoc": "^0.28.5",
     "typescript": "^5.5.3"
   },
   "private": true

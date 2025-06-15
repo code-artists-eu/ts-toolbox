@@ -1,0 +1,24 @@
+{
+  "entryPoints": [
+    "src/math/math.ts",
+    "src/map/lat-long.ts",
+    "src/map/map-tiles.ts",
+    "src/array/array.ts",
+    "src/files/files.ts",
+    "src/dates/calendar.ts"
+  ],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "theme": "default",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeInternal": true,
+  "readme": "README.md",
+  "name": "Utils Library",
+  "includeVersion": true,
+  "sort": ["source-order"],
+  "categorizeByGroup": true,
+  "defaultCategory": "Other",
+  "categoryOrder": ["Math", "Map", "Array", "Files", "Dates", "*"],
+  "groupOrder": ["Modules", "Functions", "*"]
+}
